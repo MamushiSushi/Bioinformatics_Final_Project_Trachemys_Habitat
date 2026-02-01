@@ -1,0 +1,169 @@
+{
+  "contingency_analysis": {
+    "RGS": {
+      "contingency_table": {
+        "0": {
+          "Clear spring fed pond": 26,
+          "Oxbow analog": 108,
+          "vegetated pond": 156
+        },
+        "1": {
+          "Clear spring fed pond": 140,
+          "Oxbow analog": 58,
+          "vegetated pond": 10
+        }
+      },
+      "chi2_statistic": 214.06074270557028,
+      "p_value": 3.2907911860066957e-47,
+      "degrees_of_freedom": 2,
+      "significant": true
+    },
+    "RES": {
+      "contingency_table": {
+        "0": {
+          "Clear spring fed pond": 163,
+          "Oxbow analog": 14,
+          "vegetated pond": 122
+        },
+        "1": {
+          "Clear spring fed pond": 3,
+          "Oxbow analog": 152,
+          "vegetated pond": 44
+        }
+      },
+      "chi2_statistic": 297.5060587217022,
+      "p_value": 2.496779455883419e-65,
+      "degrees_of_freedom": 2,
+      "significant": true
+    },
+    "PH": {
+      "contingency_table": {
+        "0": {
+          "Clear spring fed pond": 90,
+          "Oxbow analog": 77,
+          "vegetated pond": 25
+        },
+        "1": {
+          "Clear spring fed pond": 76,
+          "Oxbow analog": 89,
+          "vegetated pond": 141
+        }
+      },
+      "chi2_statistic": 60.16482843137255,
+      "p_value": 8.617345462219792e-14,
+      "degrees_of_freedom": 2,
+      "significant": true
+    }
+  },
+  "occurrence_rates": [
+    {
+      "species": "RGS",
+      "water_body_type": "Clear spring fed pond",
+      "occurrences": 140,
+      "n_observations": 166,
+      "occurrence_rate": 84.33734939759037
+    },
+    {
+      "species": "RES",
+      "water_body_type": "Clear spring fed pond",
+      "occurrences": 3,
+      "n_observations": 166,
+      "occurrence_rate": 1.8072289156626504
+    },
+    {
+      "species": "PH",
+      "water_body_type": "Clear spring fed pond",
+      "occurrences": 76,
+      "n_observations": 166,
+      "occurrence_rate": 45.78313253012048
+    },
+    {
+      "species": "RGS",
+      "water_body_type": "vegetated pond",
+      "occurrences": 10,
+      "n_observations": 166,
+      "occurrence_rate": 6.024096385542169
+    },
+    {
+      "species": "RES",
+      "water_body_type": "vegetated pond",
+      "occurrences": 44,
+      "n_observations": 166,
+      "occurrence_rate": 26.506024096385545
+    },
+    {
+      "species": "PH",
+      "water_body_type": "vegetated pond",
+      "occurrences": 141,
+      "n_observations": 166,
+      "occurrence_rate": 84.93975903614458
+    },
+    {
+      "species": "RGS",
+      "water_body_type": "Oxbow analog",
+      "occurrences": 58,
+      "n_observations": 166,
+      "occurrence_rate": 34.93975903614458
+    },
+    {
+      "species": "RES",
+      "water_body_type": "Oxbow analog",
+      "occurrences": 152,
+      "n_observations": 166,
+      "occurrence_rate": 91.56626506024097
+    },
+    {
+      "species": "PH",
+      "water_body_type": "Oxbow analog",
+      "occurrences": 89,
+      "n_observations": 166,
+      "occurrence_rate": 53.6144578313253
+    }
+  ],
+  "habitat_characteristics": {
+    "Clear spring fed pond": {
+      "salinity_mean": 0.19477707043117243,
+      "salinity_std": 0.09262147476349378,
+      "pH_mean": 7.427419670075617,
+      "pH_std": 0.29917129721309166,
+      "temperature_mean": 11.996295289611599,
+      "temperature_std": 3.0223613657114488,
+      "dissolved_oxygen_mean": 8.942143058524726,
+      "dissolved_oxygen_std": 0.9936461965452703
+    },
+    "vegetated pond": {
+      "salinity_mean": 0.6438934652803244,
+      "salinity_std": 0.3869840501888632,
+      "pH_mean": 6.989299486635723,
+      "pH_std": 0.48507557159102055,
+      "temperature_mean": 16.749586354886222,
+      "temperature_std": 4.1267448866015854,
+      "dissolved_oxygen_mean": 7.622345100484636,
+      "dissolved_oxygen_std": 1.4551371392727745
+    },
+    "Oxbow analog": {
+      "salinity_mean": 0.9947818280219941,
+      "salinity_std": 0.5648815398963131,
+      "pH_mean": 7.8071514618705775,
+      "pH_std": 0.549912849075097,
+      "temperature_mean": 17.22825650294628,
+      "temperature_std": 4.157807921692467,
+      "dissolved_oxygen_mean": 7.327288312755933,
+      "dissolved_oxygen_std": 1.1854819088227553
+    }
+  },
+  "summary": {
+    "RGS": {
+      "preferred_habitat": "Clear spring fed pond",
+      "preference_rate": 84.33734939759037
+    },
+    "RES": {
+      "preferred_habitat": "Oxbow analog",
+      "preference_rate": 91.56626506024097
+    },
+    "PH": {
+      "preferred_habitat": "vegetated pond",
+      "preference_rate": 84.93975903614458
+    }
+  }
+}
